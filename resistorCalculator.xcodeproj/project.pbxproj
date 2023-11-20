@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943D15612B07FEC600A20D69 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15602B07FEC600A20D69 /* ColorPickerView.swift */; };
+		943D15632B0803AD00A20D69 /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15622B0803AD00A20D69 /* ColorButton.swift */; };
+		94EADBD92B0409310072D327 /* resistorCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBD82B0409310072D327 /* resistorCalculatorApp.swift */; };
+		94EADBDB2B0409310072D327 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBDA2B0409310072D327 /* ContentView.swift */; };
+		94EADBDD2B0409340072D327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EADBDC2B0409340072D327 /* Assets.xcassets */; };
+		94EADBE02B0409340072D327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EADBDF2B0409340072D327 /* Preview Assets.xcassets */; };
+		94EADBEA2B0409340072D327 /* resistorCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBE92B0409340072D327 /* resistorCalculatorTests.swift */; };
+		94EADBF42B0409340072D327 /* resistorCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBF32B0409340072D327 /* resistorCalculatorUITests.swift */; };
+		94EADBF62B0409340072D327 /* resistorCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBF52B0409340072D327 /* resistorCalculatorUITestsLaunchTests.swift */; };
+		94EADC032B040A560072D327 /* ResistorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADC022B040A560072D327 /* ResistorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94EADBE62B0409340072D327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94EADBCD2B0409310072D327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94EADBD42B0409310072D327;
+			remoteInfo = resistorCalculator;
+		};
+		94EADBF02B0409340072D327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94EADBCD2B0409310072D327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94EADBD42B0409310072D327;
+			remoteInfo = resistorCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		943D15602B07FEC600A20D69 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		943D15622B0803AD00A20D69 /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		94EADBD52B0409310072D327 /* resistorCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resistorCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EADBD82B0409310072D327 /* resistorCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorCalculatorApp.swift; sourceTree = "<group>"; };
+		94EADBDA2B0409310072D327 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94EADBDC2B0409340072D327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94EADBDF2B0409340072D327 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94EADBE52B0409340072D327 /* resistorCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resistorCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EADBE92B0409340072D327 /* resistorCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorCalculatorTests.swift; sourceTree = "<group>"; };
+		94EADBEF2B0409340072D327 /* resistorCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resistorCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EADBF32B0409340072D327 /* resistorCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorCalculatorUITests.swift; sourceTree = "<group>"; };
+		94EADBF52B0409340072D327 /* resistorCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94EADC022B040A560072D327 /* ResistorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94EADBD22B0409310072D327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EADBE22B0409340072D327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EADBEC2B0409340072D327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943D155E2B07FCEE00A20D69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		943D155F2B07FCFA00A20D69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94EADC022B040A560072D327 /* ResistorView.swift */,
+				943D15602B07FEC600A20D69 /* ColorPickerView.swift */,
+				943D15622B0803AD00A20D69 /* ColorButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94EADBCC2B0409310072D327 = {
+			isa = PBXGroup;
+			children = (
+				94EADBD72B0409310072D327 /* resistorCalculator */,
+				94EADBE82B0409340072D327 /* resistorCalculatorTests */,
+				94EADBF22B0409340072D327 /* resistorCalculatorUITests */,
+				94EADBD62B0409310072D327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94EADBD62B0409310072D327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94EADBD52B0409310072D327 /* resistorCalculator.app */,
+				94EADBE52B0409340072D327 /* resistorCalculatorTests.xctest */,
+				94EADBEF2B0409340072D327 /* resistorCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94EADBD72B0409310072D327 /* resistorCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				943D155F2B07FCFA00A20D69 /* Views */,
+				943D155E2B07FCEE00A20D69 /* Models */,
+				94EADBD82B0409310072D327 /* resistorCalculatorApp.swift */,
+				94EADBDA2B0409310072D327 /* ContentView.swift */,
+				94EADBDC2B0409340072D327 /* Assets.xcassets */,
+				94EADBDE2B0409340072D327 /* Preview Content */,
+			);
+			path = resistorCalculator;
+			sourceTree = "<group>";
+		};
+		94EADBDE2B0409340072D327 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94EADBDF2B0409340072D327 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94EADBE82B0409340072D327 /* resistorCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				94EADBE92B0409340072D327 /* resistorCalculatorTests.swift */,
+			);
+			path = resistorCalculatorTests;
+			sourceTree = "<group>";
+		};
+		94EADBF22B0409340072D327 /* resistorCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94EADBF32B0409340072D327 /* resistorCalculatorUITests.swift */,
+				94EADBF52B0409340072D327 /* resistorCalculatorUITestsLaunchTests.swift */,
+			);
+			path = resistorCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94EADBD42B0409310072D327 /* resistorCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EADBF92B0409340072D327 /* Build configuration list for PBXNativeTarget "resistorCalculator" */;
+			buildPhases = (
+				94EADBD12B0409310072D327 /* Sources */,
+				94EADBD22B0409310072D327 /* Frameworks */,
+				94EADBD32B0409310072D327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = resistorCalculator;
+			productName = resistorCalculator;
+			productReference = 94EADBD52B0409310072D327 /* resistorCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94EADBE42B0409340072D327 /* resistorCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EADBFC2B0409340072D327 /* Build configuration list for PBXNativeTarget "resistorCalculatorTests" */;
+			buildPhases = (
+				94EADBE12B0409340072D327 /* Sources */,
+				94EADBE22B0409340072D327 /* Frameworks */,
+				94EADBE32B0409340072D327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94EADBE72B0409340072D327 /* PBXTargetDependency */,
+			);
+			name = resistorCalculatorTests;
+			productName = resistorCalculatorTests;
+			productReference = 94EADBE52B0409340072D327 /* resistorCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94EADBEE2B0409340072D327 /* resistorCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EADBFF2B0409340072D327 /* Build configuration list for PBXNativeTarget "resistorCalculatorUITests" */;
+			buildPhases = (
+				94EADBEB2B0409340072D327 /* Sources */,
+				94EADBEC2B0409340072D327 /* Frameworks */,
+				94EADBED2B0409340072D327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94EADBF12B0409340072D327 /* PBXTargetDependency */,
+			);
+			name = resistorCalculatorUITests;
+			productName = resistorCalculatorUITests;
+			productReference = 94EADBEF2B0409340072D327 /* resistorCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94EADBCD2B0409310072D327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					94EADBD42B0409310072D327 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					94EADBE42B0409340072D327 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 94EADBD42B0409310072D327;
+					};
+					94EADBEE2B0409340072D327 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 94EADBD42B0409310072D327;
+					};
+				};
+			};
+			buildConfigurationList = 94EADBD02B0409310072D327 /* Build configuration list for PBXProject "resistorCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94EADBCC2B0409310072D327;
+			productRefGroup = 94EADBD62B0409310072D327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94EADBD42B0409310072D327 /* resistorCalculator */,
+				94EADBE42B0409340072D327 /* resistorCalculatorTests */,
+				94EADBEE2B0409340072D327 /* resistorCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94EADBD32B0409310072D327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EADBE02B0409340072D327 /* Preview Assets.xcassets in Resources */,
+				94EADBDD2B0409340072D327 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EADBE32B0409340072D327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EADBED2B0409340072D327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94EADBD12B0409310072D327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943D15612B07FEC600A20D69 /* ColorPickerView.swift in Sources */,
+				94EADBDB2B0409310072D327 /* ContentView.swift in Sources */,
+				943D15632B0803AD00A20D69 /* ColorButton.swift in Sources */,
+				94EADBD92B0409310072D327 /* resistorCalculatorApp.swift in Sources */,
+				94EADC032B040A560072D327 /* ResistorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EADBE12B0409340072D327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EADBEA2B0409340072D327 /* resistorCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EADBEB2B0409340072D327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EADBF42B0409340072D327 /* resistorCalculatorUITests.swift in Sources */,
+				94EADBF62B0409340072D327 /* resistorCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94EADBE72B0409340072D327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94EADBD42B0409310072D327 /* resistorCalculator */;
+			targetProxy = 94EADBE62B0409340072D327 /* PBXContainerItemProxy */;
+		};
+		94EADBF12B0409340072D327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94EADBD42B0409310072D327 /* resistorCalculator */;
+			targetProxy = 94EADBF02B0409340072D327 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94EADBF72B0409340072D327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94EADBF82B0409340072D327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94EADBFA2B0409340072D327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"resistorCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 38JDBWN7B4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.michelly.resistorCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94EADBFB2B0409340072D327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"resistorCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 38JDBWN7B4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.michelly.resistorCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94EADBFD2B0409340072D327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38JDBWN7B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.michelly.resistorCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/resistorCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/resistorCalculator";
+			};
+			name = Debug;
+		};
+		94EADBFE2B0409340072D327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38JDBWN7B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.michelly.resistorCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/resistorCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/resistorCalculator";
+			};
+			name = Release;
+		};
+		94EADC002B0409340072D327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38JDBWN7B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.michelly.resistorCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = resistorCalculator;
+			};
+			name = Debug;
+		};
+		94EADC012B0409340072D327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38JDBWN7B4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.michelly.resistorCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = resistorCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94EADBD02B0409310072D327 /* Build configuration list for PBXProject "resistorCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EADBF72B0409340072D327 /* Debug */,
+				94EADBF82B0409340072D327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EADBF92B0409340072D327 /* Build configuration list for PBXNativeTarget "resistorCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EADBFA2B0409340072D327 /* Debug */,
+				94EADBFB2B0409340072D327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EADBFC2B0409340072D327 /* Build configuration list for PBXNativeTarget "resistorCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EADBFD2B0409340072D327 /* Debug */,
+				94EADBFE2B0409340072D327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94EADBFF2B0409340072D327 /* Build configuration list for PBXNativeTarget "resistorCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94EADC002B0409340072D327 /* Debug */,
+				94EADC012B0409340072D327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94EADBCD2B0409310072D327 /* Project object */;
+}
