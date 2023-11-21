@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		943D15612B07FEC600A20D69 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15602B07FEC600A20D69 /* ColorPickerView.swift */; };
 		943D15632B0803AD00A20D69 /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15622B0803AD00A20D69 /* ColorButton.swift */; };
+		943D15672B0D0A6200A20D69 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15662B0D0A6200A20D69 /* Band.swift */; };
+		943D15692B0D202B00A20D69 /* FirstBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15682B0D202B00A20D69 /* FirstBand.swift */; };
+		943D156B2B0D321C00A20D69 /* MultiplierBandColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D156A2B0D321C00A20D69 /* MultiplierBandColor.swift */; };
+		943D156D2B0D322900A20D69 /* ToleranceBandColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D156C2B0D322900A20D69 /* ToleranceBandColor.swift */; };
 		94EADBD92B0409310072D327 /* resistorCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBD82B0409310072D327 /* resistorCalculatorApp.swift */; };
 		94EADBDB2B0409310072D327 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBDA2B0409310072D327 /* ContentView.swift */; };
 		94EADBDD2B0409340072D327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EADBDC2B0409340072D327 /* Assets.xcassets */; };
@@ -39,6 +43,10 @@
 /* Begin PBXFileReference section */
 		943D15602B07FEC600A20D69 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		943D15622B0803AD00A20D69 /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		943D15662B0D0A6200A20D69 /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
+		943D15682B0D202B00A20D69 /* FirstBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBand.swift; sourceTree = "<group>"; };
+		943D156A2B0D321C00A20D69 /* MultiplierBandColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplierBandColor.swift; sourceTree = "<group>"; };
+		943D156C2B0D322900A20D69 /* ToleranceBandColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToleranceBandColor.swift; sourceTree = "<group>"; };
 		94EADBD52B0409310072D327 /* resistorCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resistorCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EADBD82B0409310072D327 /* resistorCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorCalculatorApp.swift; sourceTree = "<group>"; };
 		94EADBDA2B0409310072D327 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +88,10 @@
 		943D155E2B07FCEE00A20D69 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				943D15662B0D0A6200A20D69 /* Band.swift */,
+				943D15682B0D202B00A20D69 /* FirstBand.swift */,
+				943D156A2B0D321C00A20D69 /* MultiplierBandColor.swift */,
+				943D156C2B0D322900A20D69 /* ToleranceBandColor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -282,9 +294,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943D15672B0D0A6200A20D69 /* Band.swift in Sources */,
 				943D15612B07FEC600A20D69 /* ColorPickerView.swift in Sources */,
 				94EADBDB2B0409310072D327 /* ContentView.swift in Sources */,
+				943D156D2B0D322900A20D69 /* ToleranceBandColor.swift in Sources */,
+				943D156B2B0D321C00A20D69 /* MultiplierBandColor.swift in Sources */,
 				943D15632B0803AD00A20D69 /* ColorButton.swift in Sources */,
+				943D15692B0D202B00A20D69 /* FirstBand.swift in Sources */,
 				94EADBD92B0409310072D327 /* resistorCalculatorApp.swift in Sources */,
 				94EADC032B040A560072D327 /* ResistorView.swift in Sources */,
 			);
