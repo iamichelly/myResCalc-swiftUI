@@ -34,13 +34,31 @@ enum ToleranceBandColor {
 }
 
 class ToleranceBand: Band {
-    var toleranceBandValue: Double
-    var toleranceBandColor: ToleranceBandColor
+    @Published var toleranceBandValue: Double
+    @Published var toleranceBandColor: ToleranceBandColor
     
-    init(toleranceBandValue: Double, toleranceBandColor: ToleranceBandColor) {
-        self.toleranceBandValue = toleranceBandValue
+    init(toleranceBandColor: ToleranceBandColor) {
+        self.toleranceBandValue = 1
         self.toleranceBandColor = toleranceBandColor
-        super.init(color: toleranceBandColor.getColor())
+        
+        super.init(color: BandColor.brown)
+    }
+    
+    override func getColor() -> Color {
+        return toleranceBandColor.getColor()
+    }
+    
+    override func getValue() -> Double {
+        return toleranceBandValue
+    }
+    
+    override func changeBandColor() {
+        let allColors: [ToleranceBandColor] = [.brown, .red, .green, .blue, .purple, .grey, .golden, .silver]
+        if let currentIndex = allColors.firstIndex(of: toleranceBandColor) {
+            let nextIndex = (currentIndex + 1) % allColors.count
+            toleranceBandColor = allColors[nextIndex]
+            loadValue()
+        }
     }
     
     func loadValue() {

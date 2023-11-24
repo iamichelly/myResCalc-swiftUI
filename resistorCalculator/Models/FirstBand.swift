@@ -38,13 +38,35 @@ enum FirstBandColor {
 }
 
 class FirstBand: Band {
-    var firstBandValue: Int
-    var firstBandcolor: FirstBandColor
+    @Published var firstBandValue: Double
+    @Published var firstBandcolor: FirstBandColor
     
-    init(firstBandcolor: FirstBandColor, bandValue: Int) {
-        self.firstBandValue = bandValue
+    init(firstBandcolor: FirstBandColor) {
+        self.firstBandValue = 0
         self.firstBandcolor = firstBandcolor
-        super.init(color: firstBandcolor.getColor())
+    
+        super.init(color: BandColor.black)
+    }
+    
+    override func getColor() -> Color {
+        return firstBandcolor.getColor()
+    }
+    
+    override func formatValue() -> String {
+        return String(format: "%.0f", getValue())
+    }
+    
+    override func getValue() -> Double {
+        return firstBandValue
+    }
+    
+    override func changeBandColor() {
+        let allColors: [FirstBandColor] = [.black, .brown, .red, .orange, .yellow, .green, .blue, .purple, .grey, .white]
+        if let currentIndex = allColors.firstIndex(of: firstBandcolor) {
+            let nextIndex = (currentIndex + 1) % allColors.count
+            firstBandcolor = allColors[nextIndex]
+            loadValue()
+        }
     }
 
     func loadValue() {

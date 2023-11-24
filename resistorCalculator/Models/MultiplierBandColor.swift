@@ -38,13 +38,32 @@ enum MultiplierBandColor {
 }
 
 class MultiplierBand: Band {
-    var multiplierBandValue: Double
-    var multiplierBandColor: MultiplierBandColor
+    @Published var multiplierBandValue: Double
+    @Published var multiplierBandColor: MultiplierBandColor
     
-    init(multiplierBandValue: Double, multiplierBandColor: MultiplierBandColor) {
-        self.multiplierBandValue = multiplierBandValue
+    init(multiplierBandColor: MultiplierBandColor) {
+        self.multiplierBandValue = 1
         self.multiplierBandColor = multiplierBandColor
-        super.init(color: multiplierBandColor.getColor())
+        
+        super.init(color: BandColor.black)
+        
+    }
+    
+    override func getColor() -> Color {
+        return multiplierBandColor.getColor()
+    }
+    
+    override func getValue() -> Double {
+        return multiplierBandValue
+    }
+    
+    override func changeBandColor() {
+        let allColors: [MultiplierBandColor] = [.black, .brown, .red, .orange, .yellow, .green, .blue, .purple, .golden, .silver]
+        if let currentIndex = allColors.firstIndex(of: multiplierBandColor) {
+            let nextIndex = (currentIndex + 1) % allColors.count
+            multiplierBandColor = allColors[nextIndex]
+            loadValue()
+        }
     }
     
     func loadValue() {

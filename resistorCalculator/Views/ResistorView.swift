@@ -8,36 +8,44 @@
 import SwiftUI
 
 struct ResistorView: View {
+    @ObservedObject var resistorModel: ResistorModel
+    @Binding var firstBandColor: Color
+    @Binding var secondBandColor: Color
+    @Binding var multiplierBandColor: Color
+    @Binding var toleranceBandColor: Color
+
     var body: some View {
         ZStack{
             HStack{
                 Rectangle()
-                    .frame(width: 31, height: 187)
-                    .padding(.leading, 50)
-                    .foregroundColor(.red)
+                    .frame(width: 31, height: 110)
+                    .padding(.leading, 180)
+                    .foregroundColor(firstBandColor)
                     
                 Rectangle()
-                    .frame(width: 31, height: 153)
+                    .frame(width: 31, height: 89)
+                    .padding(.leading, 40)
+                    .padding(.trailing, 10)
+                    .foregroundColor(secondBandColor)
+                    
+                Rectangle()
+                    .frame(width: 31, height: 89)
                     .padding(.trailing, 40)
-                    .padding(.leading, 60)
-                    .foregroundColor(.black)
+                    .padding(.leading, 10)
+                    .foregroundColor(multiplierBandColor)
                     
                 Rectangle()
-                    .frame(width: 31, height: 153)
-                    .padding(.trailing, 160)
-                    .foregroundColor(.red)
-                    
-                Rectangle()
-                    .frame(width: 31, height: 187)
-                    .padding(.trailing, 40)
-                    .foregroundColor(.gray)
+                    .frame(width: 31, height: 110)
+                    .padding(.trailing, 180)
+                    .foregroundColor(toleranceBandColor)
             }
         }
         .background(Image("resistor-base"))
         .padding(.bottom, 50)
+        
     }
 }
 
-#Preview {
-    ResistorView()
-}
+//#Preview {
+//    ResistorView()
+//}
