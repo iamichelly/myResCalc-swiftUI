@@ -7,20 +7,24 @@
 
 import SwiftUI
 
-struct ColorButton: View {
+struct ColorButtonView: View {
     
     let bandTitle: String
     @ObservedObject var band: Band
     @Binding var color: Color
-    @ObservedObject var resistorModel: ResistorModel
+    @ObservedObject var resistorModel: Resistor
     
     var body: some View {
         VStack{
             Text(bandTitle)
                 .font(.system(size: Responsive.scale(s: 16)))
                 .foregroundColor(.white)
-                
+            
             Button(action: {
+                let generator = UIImpactFeedbackGenerator(style: .light) // Cria um gerador de feedback de impacto
+                generator.prepare() // Prepara o gerador para a vibração
+                generator.impactOccurred() // Produz a vibração
+                
                 if let band = band as? Band {
                     band.changeBandColor()
                     color = band.getColor()

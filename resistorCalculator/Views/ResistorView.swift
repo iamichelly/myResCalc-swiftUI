@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ResistorView: View {
-    @ObservedObject var resistorModel: ResistorModel
+    @ObservedObject var resistorModel: Resistor
     @Binding var firstBandColor: Color
     @Binding var secondBandColor: Color
     @Binding var multiplierBandColor: Color

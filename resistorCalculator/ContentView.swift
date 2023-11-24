@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @StateObject var resistorModel = ResistorModel()
+    @StateObject var resistorModel = Resistor()
     @State var firstBandColor: Color = .black
     @State var secondBandColor: Color = .black
     @State var multiplierBandColor: Color = .black
-    @State var toleranceBandColor: Color = .brown
+    @State var toleranceBandColor: Color = .myBrown
    
     
     var body: some View {

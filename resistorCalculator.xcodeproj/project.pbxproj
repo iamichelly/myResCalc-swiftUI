@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		943D15612B07FEC600A20D69 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15602B07FEC600A20D69 /* ColorPickerView.swift */; };
-		943D15632B0803AD00A20D69 /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15622B0803AD00A20D69 /* ColorButton.swift */; };
+		943D15632B0803AD00A20D69 /* ColorButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15622B0803AD00A20D69 /* ColorButtonView.swift */; };
 		943D15672B0D0A6200A20D69 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15662B0D0A6200A20D69 /* Band.swift */; };
 		943D15692B0D202B00A20D69 /* FirstBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15682B0D202B00A20D69 /* FirstBand.swift */; };
 		943D156B2B0D321C00A20D69 /* MultiplierBandColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D156A2B0D321C00A20D69 /* MultiplierBandColor.swift */; };
 		943D156D2B0D322900A20D69 /* ToleranceBandColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D156C2B0D322900A20D69 /* ToleranceBandColor.swift */; };
-		943D15732B0F918E00A20D69 /* ResistorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15722B0F918E00A20D69 /* ResistorModel.swift */; };
+		943D15732B0F918E00A20D69 /* Resistor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D15722B0F918E00A20D69 /* Resistor.swift */; };
 		943E2F7B2B10594D0022A7E8 /* Responsive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943E2F7A2B10594D0022A7E8 /* Responsive.swift */; };
 		94EADBD92B0409310072D327 /* resistorCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBD82B0409310072D327 /* resistorCalculatorApp.swift */; };
 		94EADBDB2B0409310072D327 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EADBDA2B0409310072D327 /* ContentView.swift */; };
@@ -44,13 +44,12 @@
 
 /* Begin PBXFileReference section */
 		943D15602B07FEC600A20D69 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		943D15622B0803AD00A20D69 /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		943D15622B0803AD00A20D69 /* ColorButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButtonView.swift; sourceTree = "<group>"; };
 		943D15662B0D0A6200A20D69 /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
 		943D15682B0D202B00A20D69 /* FirstBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBand.swift; sourceTree = "<group>"; };
 		943D156A2B0D321C00A20D69 /* MultiplierBandColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplierBandColor.swift; sourceTree = "<group>"; };
 		943D156C2B0D322900A20D69 /* ToleranceBandColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToleranceBandColor.swift; sourceTree = "<group>"; };
-		943D15722B0F918E00A20D69 /* ResistorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResistorModel.swift; sourceTree = "<group>"; };
-		943D15742B1053FF00A20D69 /* Silkscreen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silkscreen.ttf; sourceTree = "<group>"; };
+		943D15722B0F918E00A20D69 /* Resistor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resistor.swift; sourceTree = "<group>"; };
 		943E2F7A2B10594D0022A7E8 /* Responsive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responsive.swift; sourceTree = "<group>"; };
 		94EADBD52B0409310072D327 /* resistorCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resistorCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EADBD82B0409310072D327 /* resistorCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resistorCalculatorApp.swift; sourceTree = "<group>"; };
@@ -97,7 +96,7 @@
 				943D15682B0D202B00A20D69 /* FirstBand.swift */,
 				943D156A2B0D321C00A20D69 /* MultiplierBandColor.swift */,
 				943D156C2B0D322900A20D69 /* ToleranceBandColor.swift */,
-				943D15722B0F918E00A20D69 /* ResistorModel.swift */,
+				943D15722B0F918E00A20D69 /* Resistor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,7 +106,7 @@
 			children = (
 				94EADC022B040A560072D327 /* ResistorView.swift */,
 				943D15602B07FEC600A20D69 /* ColorPickerView.swift */,
-				943D15622B0803AD00A20D69 /* ColorButton.swift */,
+				943D15622B0803AD00A20D69 /* ColorButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,7 +164,6 @@
 		94EADBF22B0409340072D327 /* resistorCalculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				943D15742B1053FF00A20D69 /* Silkscreen.ttf */,
 				94EADBF32B0409340072D327 /* resistorCalculatorUITests.swift */,
 				94EADBF52B0409340072D327 /* resistorCalculatorUITestsLaunchTests.swift */,
 			);
@@ -308,8 +306,8 @@
 				943D156D2B0D322900A20D69 /* ToleranceBandColor.swift in Sources */,
 				943D156B2B0D321C00A20D69 /* MultiplierBandColor.swift in Sources */,
 				943E2F7B2B10594D0022A7E8 /* Responsive.swift in Sources */,
-				943D15632B0803AD00A20D69 /* ColorButton.swift in Sources */,
-				943D15732B0F918E00A20D69 /* ResistorModel.swift in Sources */,
+				943D15632B0803AD00A20D69 /* ColorButtonView.swift in Sources */,
+				943D15732B0F918E00A20D69 /* Resistor.swift in Sources */,
 				943D15692B0D202B00A20D69 /* FirstBand.swift in Sources */,
 				94EADBD92B0409310072D327 /* resistorCalculatorApp.swift in Sources */,
 				94EADC032B040A560072D327 /* ResistorView.swift in Sources */,

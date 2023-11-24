@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class ResistorModel: ObservableObject {
+class Resistor: ObservableObject {
     @Published var firstBand: FirstBand
     @Published var secondBand: FirstBand
     @Published var multiplierBand: MultiplierBand

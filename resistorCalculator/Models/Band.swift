@@ -22,27 +22,27 @@ enum BandColor {
         case .black:
             return .black
         case .brown:
-            return .brown
+            return .myBrown
         case .red:
-            return .red
+            return .myRed
         case .orange:
-            return .orange
+            return .myOrange
         case .yellow:
-            return .yellow
+            return .myYellow
         case .green:
-            return .green
+            return .myGreen
         case .blue:
             return .blue
         case .purple:
-            return .purple
+            return .myPurple
         case .grey:
-            return .gray
+            return .myGray
         case .white:
             return .white
         case .golden:
-            return Color(red: 218, green: 156, blue: 32)
+            return .golden
         case .silver:
-            return Color(red: 192, green: 192, blue: 192)
+            return .silver
         }
     }
 }
@@ -69,4 +69,16 @@ class Band: ObservableObject {
     func changeBandColor() {
     }
    
+}
+
+extension Color {
+    static let myGray = Color(UIColor(red: 113/255.0, green: 113/255.0, blue: 113/255.0, alpha: 1.0))
+    static let golden = Color(UIColor(red: 212/255.0, green: 175/255.0, blue: 55/255.0, alpha: 1.0))
+    static let silver = Color(UIColor(red: 160/255.0, green: 160/255.0, blue: 160/255.0, alpha: 1.0))
+    static let myBrown = Color(UIColor(red: 78/255.0, green: 54/255.0, blue: 34/255.0, alpha: 1.0))
+    static let myYellow = Color(UIColor(red: 255/255.0, green: 237/255.0, blue: 26/255.0, alpha: 1.0))
+    static let myRed = Color(UIColor(red: 198/255.0, green: 36/255.0, blue: 19/255.0, alpha: 1.0))
+    static let myOrange = Color(UIColor(red: 227/255.0, green: 114/255.0, blue: 0/255.0, alpha: 1.0))
+    static let myGreen = Color(UIColor(red: 27/255.0, green: 83/255.0, blue: 31/255.0, alpha: 1.0))
+    static let myPurple = Color(UIColor(red: 119/255.0, green: 5/255.0, blue: 198/255.0, alpha: 1.0))
 }
